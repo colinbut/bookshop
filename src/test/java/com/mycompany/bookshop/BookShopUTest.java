@@ -13,13 +13,13 @@ public class BookShopUTest {
 
     @Test
     public void givenBookWithYearGreaterThan2010_whenBuyBook_thenBuyBookWith10PercentDiscount() {
-        double expectedCostOfBook = 10.89;
-        Book book = new Book();
+        double expectedCostOfBook = 11.826;
+        Book book = new Book("The Terrible Privacy of Maxwell Sim ", 13.14, 2010);
 
         BookShop bookShop = new BookShop();
         double costOfBook = bookShop.buyBook(book);
 
-        assertThat(costOfBook).isEqualTo(12.0);
+        assertThat(costOfBook).isEqualTo(expectedCostOfBook);
 
     }
 }

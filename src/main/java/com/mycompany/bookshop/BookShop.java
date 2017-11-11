@@ -8,6 +8,9 @@ package com.mycompany.bookshop;
 public class BookShop {
 
     public double buyBook(Book book) {
-        return 0.0;
+        if (book.getYear() >= 2010) {
+            return book.getPrice() - (book.getPrice() * 0.10);
+        }
+        return book.getPrice();
     }
 }
