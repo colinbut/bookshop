@@ -5,6 +5,9 @@
  */
 package com.mycompany.bookshop;
 
+import com.mycompany.bookshop.model.Book;
+import com.mycompany.bookshop.model.BookShop;
+import com.mycompany.bookshop.model.Checkout;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 

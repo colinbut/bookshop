@@ -3,7 +3,7 @@
  * | Copyright © 2017 Colin But. All rights reserved.
  * |-------------------------------------------------
  */
-package com.mycompany.bookshop;
+package com.mycompany.bookshop.model;
 
 import lombok.extern.slf4j.Slf4j;
 
