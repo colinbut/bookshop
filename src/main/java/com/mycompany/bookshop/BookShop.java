@@ -5,13 +5,16 @@
  */
 package com.mycompany.bookshop;
 
+import lombok.NoArgsConstructor;
+
 import java.util.List;
 
-public class BookShop {
+@NoArgsConstructor
+public final class BookShop {
 
     private static final int BOOK_YEAR_OVER_2010 = 2010;
     private static final int BOOK_YEAR_OVER_2010_DISCOUNT = 10; // in %
-    private static final int TOTAL_BOOKS_WORTH_MORE_THAN_30_POUNDS_DISCOUNT = 5;
+    private static final int TOTAL_BOOKS_WORTH_MORE_THAN_30_POUNDS_DISCOUNT = 5; // in %
     private static final double TOTAL_BOOKS_WORTH_MORE_THAN_30_POUNDS = 30.00;
 
     public double buyBook(Book book) {
