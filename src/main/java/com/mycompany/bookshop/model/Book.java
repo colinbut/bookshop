@@ -13,6 +13,6 @@ import lombok.Data;
 public final class Book {
 
     private String title;
-    private double price;
+    private Money price;
     private int year;
 }

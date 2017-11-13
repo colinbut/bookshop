@@ -19,7 +19,7 @@ public class Checkout {
     }
 
     public void checkoutBooks(Book... books) {
-        double totalBookCost = bookShop.buyBooks(Arrays.asList(books));
+        Money totalBookCost = bookShop.buyBooks(Arrays.asList(books));
         log.info("Total Cost of books: {} is {}", books, totalBookCost);
     }
 }
